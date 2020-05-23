@@ -36,7 +36,7 @@
       "host": {
         "api": "https://eugyintezes.e-kreta.hu",
         "apiPath": "api/v1"
-      }
+      },
       "endpoint": {
         "messages": "kommunikacio/postaladaelemek/sajat/",
         "sendMessage": "kommunikacio/uzenetek/",
