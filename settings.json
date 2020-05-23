@@ -10,9 +10,11 @@
   },
   "kreta": {
     "v3": {
-      "loginHost": "https://idp.e-kreta.hu",
-      "apiHost": "https://kretaglobalmobileapi2.ekreta.hu",
-      "examinerPath": "ellenorzo/V3",
+      "host": {
+        "login": "https://idp.e-kreta.hu",
+        "api": "https://kretaglobalmobileapi2.ekreta.hu",
+        "examinerPath": "ellenorzo/V3"
+      },
       "endpoint": {
         "institutes": "api/v3/Institute/",
         "auth": "connect/token/",
@@ -31,8 +33,10 @@
   },
   "management": {
     "v1": {
-      "apiHost": "https://eugyintezes.e-kreta.hu",
-      "apiPath": "api/v1",
+      "host": {
+        "api": "https://eugyintezes.e-kreta.hu",
+        "apiPath": "api/v1"
+      }
       "endpoint": {
         "messages": "kommunikacio/postaladaelemek/sajat/",
         "sendMessage": "kommunikacio/uzenetek/",
