@@ -40,17 +40,17 @@
         "downloadAttachment": "dokumentumok/uzenetek/<attachmentId>/",
         "setMessageRead": "kommunikacio/postaladaelemek/olvasott/",
         "receiversEndpoint": {
-          "guardian": "",
-          "student": "",
-          "classTutelary": "",
-          "classStudent": "",
-          "classGroupTutelary": "",
-          "classGroupStudent": "",
-          "principal": "",
-          "classroomTeacher": "",
-          "teacher": "",
-          "admin": "",
-          "szmkRepresentative": ""
+          "guardian": null,
+          "student": null,
+          "classTutelary": "kreta/gondviselok/osztaly/",
+          "classStudent": "kreta/tanulok/osztalyok",
+          "classGroupTutelary": "kreta/gondviselok/tanoraicsoport/",
+          "classGroupStudent": "kreta/tanulok/tanoraicsoportok/",
+          "principal": "kreta/alkalmazottak/igazgatosag/",
+          "classroomTeacher": "kreta/alkalmazottak/oszalyfonok/",
+          "teacher": "kreta/alkalmazottak/tanar/",
+          "admin": "kreta/alkalmazottak/adminisztrator/",
+          "szmkRepresentative": "kommunikacio/szmkkepviselok/cimezheto/"
         },
       "sendableReceiverTypes": "kommunikacio/cimezhetotipusok/"
       }
