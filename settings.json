@@ -38,8 +38,8 @@
         "apiPath": "api/v1"
       },
       "receiversEndpoint": {
-        "guardian": null,
-        "student": null,
+        "guardian": "",
+        "student": "",
         "classTutelary": "kreta/gondviselok/osztaly/",
         "classStudent": "kreta/tanulok/osztalyok",
         "classGroupTutelary": "kreta/gondviselok/tanoraicsoport/",
