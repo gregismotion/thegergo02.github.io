@@ -41,7 +41,7 @@
         "guardian": "",
         "student": "",
         "classTutelary": "kreta/gondviselok/osztaly/",
-        "classStudent": "kreta/tanulok/osztalyok",
+        "classStudent": "kreta/tanulok/osztalyok/",
         "classGroupTutelary": "kreta/gondviselok/tanoraicsoport/",
         "classGroupStudent": "kreta/tanulok/tanoraicsoportok/",
         "principal": "kreta/alkalmazottak/igazgatosag/",
