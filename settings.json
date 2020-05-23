@@ -10,24 +10,28 @@
   },
   "kreta": [
     "v3": [
-      "host": {
-        "login": "https://idp.e-kreta.hu",
-        "api": "https://kretaglobalmobileapi2.ekreta.hu",
-        "examinerPath": "ellenorzo/V3"
+      {
+        "host": {
+          "login": "https://idp.e-kreta.hu",
+          "api": "https://kretaglobalmobileapi2.ekreta.hu",
+          "examinerPath": "ellenorzo/V3"
+        }
       },
-      "endpoint": {
-        "institutes": "api/v3/Institute/",
-        "auth": "connect/token/",
-        "evaluations": "Sajat/Ertekelesek/",
-        "notes": "Sajat/Feljegyzesek/",
-        "notices": "Sajat/FaliujsagElemek/",
-        "absences": "Sajat/Mulasztasok/",
-        "timetable": "Sajat/OrarendElemek/",
-        "tests": "Sajat/BejelentettSzamonkeresek/",
-        "homework": "Sajat/HaziFeladatok/",
-        "homeworkComment": "Sajat/HaziFeladatok/<homeworkUid>/Kommentek/",
-        "homeworkSendComment": "Sajat/Orak/TanitasiOrak/HaziFeladatok/Kommentek/",
-        "studentDetails": "Sajat/TanuloAdatlap/"
+      {
+        "endpoint": {
+          "institutes": "api/v3/Institute/",
+          "auth": "connect/token/",
+          "evaluations": "Sajat/Ertekelesek/",
+          "notes": "Sajat/Feljegyzesek/",
+          "notices": "Sajat/FaliujsagElemek/",
+          "absences": "Sajat/Mulasztasok/",
+          "timetable": "Sajat/OrarendElemek/",
+          "tests": "Sajat/BejelentettSzamonkeresek/",
+          "homework": "Sajat/HaziFeladatok/",
+          "homeworkComment": "Sajat/HaziFeladatok/<homeworkUid>/Kommentek/",
+          "homeworkSendComment": "Sajat/Orak/TanitasiOrak/HaziFeladatok/Kommentek/",
+          "studentDetails": "Sajat/TanuloAdatlap/"
+        }
       }
     ]
   ],
