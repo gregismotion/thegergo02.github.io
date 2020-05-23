@@ -56,7 +56,7 @@
         "message": "kommunikacio/postaladaelemek/<messageId>/",
         "downloadAttachment": "dokumentumok/uzenetek/<attachmentId>/",
         "setMessageRead": "kommunikacio/postaladaelemek/olvasott/",
-      "sendableReceiverTypes": "kommunikacio/cimezhetotipusok/"
+        "sendableReceiverTypes": "kommunikacio/cimezhetotipusok/"
       }
     }
   }
