@@ -8,8 +8,8 @@
   "clientId": {
     "v3": "KRETA-ELLENORZO-MOBILE"
   },
-  "kreta": {
-    "v3": {
+  "kreta": [
+    "v3": [
       "host": {
         "login": "https://idp.e-kreta.hu",
         "api": "https://kretaglobalmobileapi2.ekreta.hu",
@@ -29,8 +29,8 @@
         "homeworkSendComment": "Sajat/Orak/TanitasiOrak/HaziFeladatok/Kommentek/",
         "studentDetails": "Sajat/TanuloAdatlap/"
       }
-    }
-  },
+    ]
+  ],
   "management": {
     "v1": {
       "host": {
