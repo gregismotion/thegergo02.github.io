@@ -1,7 +1,59 @@
 {
-  "kretaUserAgent": "hu.ekreta.student/<version>/<codename>",
-  "apiKey": "7856d350-1fda-45f5-822d-e1a2f3f1acf0",
-  "clientId": "KRETA-ELLENORZO-MOBILE",
-  "loginUrl": "https://idp.e-kreta.hu",
-  "apiUrl": "https://kretaglobalmobileapi2.ekreta.hu"
+  "userAgent": [
+    "v3": "hu.ekreta.student/<version>/<codename>"
+  ],
+  "apiKey": [
+    "v3": "7856d350-1fda-45f5-822d-e1a2f3f1acf0"
+  ],
+  "clientId": [
+    "v3": "KRETA-ELLENORZO-MOBILE"
+  ],
+  "kreta": [
+    "v3": [
+      "loginHost": "https://idp.e-kreta.hu",
+      "apiHost": "https://kretaglobalmobileapi2.ekreta.hu"
+      "examinerPath": "ellenorzo/V3",
+      "endpoint": [
+        "institutes": "api/v3/Institute/",
+        "auth": "connect/token/",
+        "evaluations": "Sajat/Ertekelesek/",
+        "notes": "Sajat/Feljegyzesek/",
+        "notices": "Sajat/FaliujsagElemek/",
+        "absences": "Sajat/Mulasztasok/",
+        "timetable": "Sajat/OrarendElemek/",
+        "tests": "Sajat/BejelentettSzamonkeresek/",
+        "homework": "Sajat/HaziFeladatok/",
+        "homeworkComment": "Sajat/HaziFeladatok/<homeworkUid>/Kommentek/",
+        "homeworkSendComment": "Sajat/Orak/TanitasiOrak/HaziFeladatok/Kommentek/",
+        "studentDetails": "Sajat/TanuloAdatlap/"
+      ]
+    ]
+  ],
+  "management": [
+    "v1": [
+      "apiHost": "https://eugyintezes.e-kreta.hu",
+      "apiPath": "api/v1",
+      "endpoint": [
+        "messages": "kommunikacio/postaladaelemek/sajat/",
+        "sendMessage": "kommunikacio/uzenetek/",
+        "message": "kommunikacio/postaladaelemek/<messageId>/",
+        "downloadAttachment": "dokumentumok/uzenetek/<attachmentId>/",
+        "setMessageRead": "kommunikacio/postaladaelemek/olvasott/",
+        "receiversEndpoint": [
+          "guardian": "",
+          "student": "",
+          "classTutelary": "",
+          "classStudent": "",
+          "classGroupTutelary": "",
+          "classGroupStudent": "",
+          "principal": "",
+          "classroomTeacher": "",
+          "teacher": "",
+          "admin": "",
+          "szmkRepresentative": ""
+        ],
+      "sendableReceiverTypes": "kommunikacio/cimezhetotipusok/"
+      ]
+    ]
+  ]
 }
